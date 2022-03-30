@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body{
+
+}
+.card ul{
+    list-style: none;
+    padding: 0;
+}
+.card ul li{
+    padding: 5px;
+    background-color: #EBF0EE;
+    color: #172B4D;;
+}
+.card .see-project{
+    margin-left: 40%;
+}
+.card .card-title{
+    color: #172B4D;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    width: 337px;
+    height: 57px;
+}
+.recent-works h2{
+    text-align: center;
+}
+.social-links{
+    width: 200px;
+    height: 40px;
+    margin: auto;
+}
+.social-links ul{
+    list-style:none;
+}
+.social-links ul li a i{
+    color: #505F79;
+}
+.icon{
+    margin: 50px auto;
+    text-align: center;
+}
+.recent-works{
+    margin-top: 300px;
+}
+.primary-supporting{
+    margin-top: 1000px;
+    text-align: center;
+}
+.primary-supporting .supporting{
+    width: 660px;
+    text-align: center;
+    margin: auto;
+}
+.primary-supporting .supporting p{
+    font-size: 20px;
+    font-weight: 400;
+}
+header{
+    margin-bottom: 100px;
+}
+header li a{
+    color: #344563;
+}
+.container{
+    background-image: url('../images/Header-llustration-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.software-dev{
+    color: #36B37F;
+}
+.primary h2{
+    font-size: 48px;
+    font-weight: 800;
+}
