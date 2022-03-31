@@ -66,7 +66,7 @@ header li a{
     color: #344563;
 }
 .container{
-    background-image: url('../images/Header-llustration-desktop.svg');
+    /* background-image: url('../images/Header-llustration-desktop.svg'); */
     background-repeat: no-repeat;
     background-size: contain;
 }
