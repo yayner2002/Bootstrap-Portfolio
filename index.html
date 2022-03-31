@@ -25,24 +25,24 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
     <div class="container">
-      <div class="header-illustration">
-        <header>
-          <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Portfolio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </header>
+      <nav class="navbar justify-content-center navbar-expand-lg sticky-top bg-dark navbar-dark">
+        <ul class="navbar-nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-illustration" id="portfolio">
         <div class="primary-supporting mx-auto mt-5" style="width: 920px">
           <section class="primary">
             <h2>Hey there.I'm yayner</h2>
@@ -86,7 +86,7 @@
       </div>
       <section class="recent-works">
         <h2>My Recent Works</h2>
-        <div class="row g-3 mt-1">
+        <div class="row g-3 mt-1" id="about">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card" style="width: 369px">
               <img
@@ -99,10 +99,13 @@
                 <h5 class="card-title">Multi-Post Stories Gain+Glory</h5>
                 <div class="card-text">
                   <ul class="d-flex align-items-center justify-content-between">
-                    <li>Ruby on rails</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>HTML</li>
+                    <li>
+                      <span class="badge bg-secondary">Ruby on rails</span>
+                    </li>
+
+                    <li><span class="badge bg-secondary">CSS</span></li>
+                    <li><span class="badge bg-secondary">Javascript</span></li>
+                    <li><span class="badge bg-secondary">HTML</span></li>
                   </ul>
                   <button class="btn btn-success see-project">
                     See Project
@@ -123,10 +126,13 @@
                 <h5 class="card-title">Multi-Post Stories Gain+Glory</h5>
                 <div class="card-text">
                   <ul class="d-flex align-items-center justify-content-between">
-                    <li>Ruby on rails</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>HTML</li>
+                    <li>
+                      <span class="badge bg-secondary">Ruby on rails</span>
+                    </li>
+
+                    <li><span class="badge bg-secondary">CSS</span></li>
+                    <li><span class="badge bg-secondary">Javascript</span></li>
+                    <li><span class="badge bg-secondary">HTML</span></li>
                   </ul>
                   <button class="btn btn-success see-project">
                     See Project
@@ -147,10 +153,13 @@
                 <h5 class="card-title">Multi-Post Stories Gain+Glory</h5>
                 <div class="card-text">
                   <ul class="d-flex align-items-center justify-content-between">
-                    <li>Ruby on rails</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>HTML</li>
+                    <li>
+                      <span class="badge bg-secondary">Ruby on rails</span>
+                    </li>
+
+                    <li><span class="badge bg-secondary">CSS</span></li>
+                    <li><span class="badge bg-secondary">Javascript</span></li>
+                    <li><span class="badge bg-secondary">HTML</span></li>
                   </ul>
                   <button class="btn btn-success see-project">
                     See Project
@@ -160,7 +169,7 @@
             </div>
           </div>
         </div>
-        <div class="row g-3 mt-1">
+        <div class="row g-3 mt-1" id="contact">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card" style="width: 369px">
               <img
@@ -173,10 +182,13 @@
                 <h5 class="card-title">Multi-Post Stories Gain+Glory</h5>
                 <div class="card-text">
                   <ul class="d-flex align-items-center justify-content-between">
-                    <li>Ruby on rails</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>HTML</li>
+                    <li>
+                      <span class="badge bg-secondary">Ruby on rails</span>
+                    </li>
+
+                    <li><span class="badge bg-secondary">CSS</span></li>
+                    <li><span class="badge bg-secondary">Javascript</span></li>
+                    <li><span class="badge bg-secondary">HTML</span></li>
                   </ul>
                   <button class="btn btn-success see-project">
                     See Project
@@ -197,10 +209,13 @@
                 <h5 class="card-title">Multi-Post Stories Gain+Glory</h5>
                 <div class="card-text">
                   <ul class="d-flex align-items-center justify-content-between">
-                    <li>Ruby on rails</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>HTML</li>
+                    <li>
+                      <span class="badge bg-secondary">Ruby on rails</span>
+                    </li>
+
+                    <li><span class="badge bg-secondary">CSS</span></li>
+                    <li><span class="badge bg-secondary">Javascript</span></li>
+                    <li><span class="badge bg-secondary">HTML</span></li>
                   </ul>
                   <button class="btn btn-success see-project">
                     See Project
@@ -221,10 +236,13 @@
                 <h5 class="card-title">Multi-Post Stories Gain+Glory</h5>
                 <div class="card-text">
                   <ul class="d-flex align-items-center justify-content-between">
-                    <li>Ruby on rails</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>HTML</li>
+                    <li>
+                      <span class="badge bg-secondary">Ruby on rails</span>
+                    </li>
+
+                    <li><span class="badge bg-secondary">CSS</span></li>
+                    <li><span class="badge bg-secondary">Javascript</span></li>
+                    <li><span class="badge bg-secondary">HTML</span></li>
                   </ul>
                   <button class="btn btn-success see-project">
                     See Project
@@ -236,10 +254,7 @@
         </div>
       </section>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   </body>
 </html>
